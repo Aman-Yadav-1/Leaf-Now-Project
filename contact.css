@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Rubik:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Open+Sans:wght@300&family=Rubik:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&family=Montserrat:wght@600&display=swap');
+:root {
+    --green: #0d9979;
+    --white: #FFFFFF;
+    --red: red;
+    --green2: green;
+    --green3: rgb(83, 188, 83);
+}
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    transition: all 0.5s cubic-bezier(.37, 1.14, .26, 1.24);
+    scroll-behavior: smooth;
+}
+
+*::selection {
+    background: var(--green);
+    color: #FFFFFF;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+
+/*header*/
+
+.heading {
+    text-align: center;
+    font-size: 4rem;
+    color: #555;
+    padding: 1rem;
+    padding-top: 7rem;
+}
+
+.heading i {
+    color: var(--green2);
+    font-size: 2rem;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    box-shadow: 0 .1rem .3rem rgba(0, 0, 0, 3);
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    padding: 1 rem 5rem;
+    height: 80px;
+    width: 100%;
+}
+
+header .logo {
+    color: var(--green3);
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 30px;
+}
+
+header .navbar ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+header .navbar ul li {
+    margin: 0 1rem;
+}
+
+header .navbar ul li a {
+    font-size: 1.5rem;
+    color: #666;
+}
+
+header .navbar ul li a:hover {
+    color: var(--green);
+}
+
+header .fa-bars {
+    font-size: 3rem;
+    color: #666;
+    cursor: pointer;
+    display: none;
+}
+
+header .navbar ul li .user {
+    font: black;
+    font-size: 1.1rem;
+    font-family: 'Rubik', sans-serif;
+}
+
+header .navbar ul li .user i {
+    font-size: 2rem;
+}
+
+
+/*btn*/
+
+.btn {
+    color: black !important;
+    border-color: black !important;
+}
+
+.btn:hover {
+    background: var(--green3) !important;
+    color: var(--mainWhite) !important;
+}
+
+
+/*Home*/
+
+.home {
+    min-height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(images/contact-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: blur(0.5px);
+}
+
+.home h1 {
+    text-align: center;
+    font-size: 7rem;
+    color: var(--white);
+    padding: 1rem;
+    padding-top: 7rem;
+    font-family: 'Archivo Black', sans-serif;
+}
+
+.contact2 h2 {
+    position: relative;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-size: 3rem;
+    color: black;
+    padding-top: 7rem;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 400px;
+}
+
+.contact2 form .content {
+    position: relative;
+    z-index: 0;
+    min-height: 40vh;
+    background: var(--white);
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    padding-left: 400px;
+    padding-right: 150px;
+}
+
+.contact2 form label {
+    font-size: 2rem;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact2 form input {
+    font-size: 1.4rem;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact2 form .content .message2 {
+    width: 60%;
+    height: 150px;
+}
+
+.contact2 form .content .submit {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5rem;
+}
+
+
+/*Footer*/
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style: none;
+}
+
+.footer {
+    background-color: #24262b;
+    padding: 70px 0;
+}
+
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col h4 {
+    font-size: 18px;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: var(--green3);
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+    color: #ffffff;
+    padding-left: 8px;
+}
+
+.footer-col .social-links a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover {
+    color: #24262b;
+    background-color: #ffffff;
+}
+
+
+/*responsive*/
+
+@media(max-width: 767px) {
+    .footer-col {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width: 574px) {
+    .footer-col {
+        width: 100%;
+    }
+}
