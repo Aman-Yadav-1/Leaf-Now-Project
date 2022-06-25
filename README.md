@@ -9,9 +9,7 @@ There is about,seedlink,project,donate,login sections that show the obvious ment
 - A Login/Signup Section that allows one to register to website and login at any time possible,It has been connected to a simple PHP document which connects user data to SQL servers where the user data is stored securely.
 
 This project is based on Web Development And its Applications. The main objective of this project is to learn the implementation of 
- HTML 
-| CSS 
-| JavaScript. 
+ HTML | CSS | JavaScript | PHP  
 
 The basic Webpage of this project is created using HTML and styling of the webpage is done using CSS with minor functionalities required fulfilled through JavaScript.
 
