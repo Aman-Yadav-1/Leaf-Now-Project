@@ -175,7 +175,7 @@ header {
     position: sticky;
     top: 0;
     left: 0;
-    z-index: 1000;
+    z-index: 0 !important;
     padding: 1 rem 5rem;
     height: 80px;
     width: 100%;
