@@ -19,13 +19,13 @@ On Back-end part PHP with Xampp Hosting was implemented for storing user data in
 
 
 <b>SnapShots :<br><br>
-<img src="https://github.com/Aman-Yadav-1/Leaf-Now-Project/blob/master/snapshots/homepage.png" width="500" height="300">
-<img src="https://github.com/Aman-Yadav-1/Leaf-Now-Project/blob/master/snapshots/main%20page%20outlook.png" width="500" height="300">
-<img src="https://github.com/Aman-Yadav-1/Leaf-Now-Project/blob/master/snapshots/seedlink_main.png" width="500" height="300">
-<img src="https://github.com/Aman-Yadav-1/Leaf-Now-Project/blob/master/snapshots/seedlink_main2.png" width="500" height="300">
-<img src="https://github.com/Aman-Yadav-1/Leaf-Now-Project/blob/master/snapshots/donate_ss.png" width="500" height="300">
-<img src="https://github.com/Aman-Yadav-1/Leaf-Now-Project/blob/master/snapshots/donate%20snapshot.png" width="500" height="300">
-<img src="https://github.com/Aman-Yadav-1/Leaf-Now-Project/blob/master/snapshots/signin%20snapshot.png" width="500" height="300">
-<img src="https://github.com/Aman-Yadav-1/Leaf-Now-Project/blob/master/snapshots/signup%20snapshot.png" width="500" height="300">
+<img src="https://github.com/Aman-Yadav-1/Leaf-Now-Project/blob/master/snapshots/homepage.png" width="1000" height="550">
+<img src="https://github.com/Aman-Yadav-1/Leaf-Now-Project/blob/master/snapshots/main%20page%20outlook.png" width="1000" height="550">
+<img src="https://github.com/Aman-Yadav-1/Leaf-Now-Project/blob/master/snapshots/seedlink_main.png" width="1000" height="550">
+<img src="https://github.com/Aman-Yadav-1/Leaf-Now-Project/blob/master/snapshots/seedlink_main2.png" width="1000" height="550">
+<img src="https://github.com/Aman-Yadav-1/Leaf-Now-Project/blob/master/snapshots/donate_ss.png" width="1000" height="550">
+<img src="https://github.com/Aman-Yadav-1/Leaf-Now-Project/blob/master/snapshots/donate%20snapshot.png" width="1000" height="550">
+<img src="https://github.com/Aman-Yadav-1/Leaf-Now-Project/blob/master/snapshots/signin%20snapshot.png" width="1000" height="550">
+<img src="https://github.com/Aman-Yadav-1/Leaf-Now-Project/blob/master/snapshots/signup%20snapshot.png" width="1000" height="550">
 
 * made by Aman Yadav
