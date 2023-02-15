@@ -8,6 +8,9 @@ There is about,seedlink,project,donate,login sections that show the detailed inf
 - A donate Section where one can donate through payment gateway interface and download the Invoice of donated money in pdf format.
 - A Login/Signup Section that allows one to register to website and login at any time possible,It has been connected to a simple PHP document which connects user data to SQL servers where the user data is stored securely.
 
+Deployed on Netlify - https://leaf-now.netlify.app/ <br>
+Deployement on github pages - <a href="https://aman-yadav-1.github.io/Leaf-Now-Project/">Click Here</a>
+
 This project is based on Web Development And its Applications. The main objective of this project is to learn the implementation of 
  HTML | CSS | JavaScript | PHP  
 
