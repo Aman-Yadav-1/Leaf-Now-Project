@@ -40,7 +40,9 @@ header .logo {
     outline: none;
     text-decoration: none;
 }
-
+header .logo:hover{
+    text-decoration: none;
+}
 .navbar-toggler {
     outline: none !important;
 }
