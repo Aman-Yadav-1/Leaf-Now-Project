@@ -38,6 +38,7 @@ header .logo {
     justify-content: space-around;
     padding: 0 30px;
     outline: none;
+    text-decoration: none;
 }
 
 .navbar-toggler {
